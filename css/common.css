@@ -1,0 +1,83 @@
+:root {
+    /* bg colors */
+    --main-bg-color: #FFFFFF;
+    --hero-bg-color: #2F303A;
+    --team-info-bg: #F5F4FA;
+
+    /* font colors */
+    --accent-blue: #2196F3;
+    --accent-black: #000000;
+    --main-font-black: #212121;
+    --main-font-color: #757575;
+    --link-footer-color: rgba(255, 255, 255, 0.6);
+
+    --white: #FFFFFF;
+}
+
+
+/* header & footer */
+.link,
+.link-portfolio {
+    text-decoration: none;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-font-black);
+}
+
+.link-contact {
+    color: var(--main-font-color);
+}
+
+.link-footer {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--link-footer-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-blue);
+}
+
+.logo {
+    text-decoration: none;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-black);
+}
+
+.logo-blue {
+    color: var(--accent-blue);
+}
+
+.logo-white {
+    color: var(--white);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: var(--hero-bg-color);
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--white);
+}
